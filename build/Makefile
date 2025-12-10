@@ -129,6 +129,30 @@ blackjack_sim/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blackjack_sim.dir/build.make CMakeFiles/blackjack_sim.dir/build
 .PHONY : blackjack_sim/fast
 
+src/Card.o: src/Card.cpp.o
+.PHONY : src/Card.o
+
+# target to build an object file
+src/Card.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blackjack_sim.dir/build.make CMakeFiles/blackjack_sim.dir/src/Card.cpp.o
+.PHONY : src/Card.cpp.o
+
+src/Card.i: src/Card.cpp.i
+.PHONY : src/Card.i
+
+# target to preprocess a source file
+src/Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blackjack_sim.dir/build.make CMakeFiles/blackjack_sim.dir/src/Card.cpp.i
+.PHONY : src/Card.cpp.i
+
+src/Card.s: src/Card.cpp.s
+.PHONY : src/Card.s
+
+# target to generate assembly for a file
+src/Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blackjack_sim.dir/build.make CMakeFiles/blackjack_sim.dir/src/Card.cpp.s
+.PHONY : src/Card.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... blackjack_sim"
+	@echo "... src/Card.o"
+	@echo "... src/Card.i"
+	@echo "... src/Card.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
