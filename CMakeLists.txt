@@ -11,6 +11,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(blackjack_sim
     src/main.cpp
     src/Card.cpp
+    src/Hand.cpp
 )
 
 # Where we'll put headers later

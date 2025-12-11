@@ -1914,7 +1914,8 @@ CMakeFiles/blackjack_sim.dir/src/main.cpp.o: /Users/madhav/Desktop/Coding/Person
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/limits.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h
+  /Library/Developer/CommandLineTools/usr/lib/clang/16/include/stdint.h \
+  /Users/madhav/Desktop/Coding/Personal\ Projects/BlackJack/Black-Jack/include/Card.hpp
 
 
 /Users/madhav/Desktop/Coding/Personal\ Projects/BlackJack/Black-Jack/src/main.cpp:

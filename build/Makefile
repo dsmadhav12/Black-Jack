@@ -153,6 +153,30 @@ src/Card.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blackjack_sim.dir/build.make CMakeFiles/blackjack_sim.dir/src/Card.cpp.s
 .PHONY : src/Card.cpp.s
 
+src/Hand.o: src/Hand.cpp.o
+.PHONY : src/Hand.o
+
+# target to build an object file
+src/Hand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blackjack_sim.dir/build.make CMakeFiles/blackjack_sim.dir/src/Hand.cpp.o
+.PHONY : src/Hand.cpp.o
+
+src/Hand.i: src/Hand.cpp.i
+.PHONY : src/Hand.i
+
+# target to preprocess a source file
+src/Hand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blackjack_sim.dir/build.make CMakeFiles/blackjack_sim.dir/src/Hand.cpp.i
+.PHONY : src/Hand.cpp.i
+
+src/Hand.s: src/Hand.cpp.s
+.PHONY : src/Hand.s
+
+# target to generate assembly for a file
+src/Hand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blackjack_sim.dir/build.make CMakeFiles/blackjack_sim.dir/src/Hand.cpp.s
+.PHONY : src/Hand.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/Card.o"
 	@echo "... src/Card.i"
 	@echo "... src/Card.s"
+	@echo "... src/Hand.o"
+	@echo "... src/Hand.i"
+	@echo "... src/Hand.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

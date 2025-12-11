@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/blackjack_sim.dir/src/Card.cpp.o"
   "CMakeFiles/blackjack_sim.dir/src/Card.cpp.o.d"
+  "CMakeFiles/blackjack_sim.dir/src/Hand.cpp.o"
+  "CMakeFiles/blackjack_sim.dir/src/Hand.cpp.o.d"
   "CMakeFiles/blackjack_sim.dir/src/main.cpp.o"
   "CMakeFiles/blackjack_sim.dir/src/main.cpp.o.d"
   "blackjack_sim"
