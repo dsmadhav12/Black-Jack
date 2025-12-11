@@ -12,6 +12,7 @@ add_executable(blackjack_sim
     src/main.cpp
     src/Card.cpp
     src/Hand.cpp
+    src/Shoe.cpp
 )
 
 # Where we'll put headers later
